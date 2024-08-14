@@ -25,7 +25,7 @@ const FormLogin: React.FC = () => {
       if (token) {
         setSuccess(true);
         setTimeout(() => {
-          navigate("/beranda"); 
+          navigate("/"); 
         }, 2000);
       } else {
         setError("Login failed. Please check your credentials and try again.");
